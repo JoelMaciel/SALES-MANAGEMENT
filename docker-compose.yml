@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  db:
+    container_name: postgres-sales
+    image: postgres
+    restart: always
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_DB: apisales
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: docker
+
