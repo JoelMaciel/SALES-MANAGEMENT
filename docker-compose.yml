@@ -11,4 +11,5 @@ services:
       POSTGRES_DB: apisales
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: docker
-
+    volumes:
+      - ./pg_data:/var/lib/postgresql/data
