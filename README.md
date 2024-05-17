@@ -9,11 +9,11 @@
 ## Main tools
 
 - Node.js
-- Typescript
-- PostegreSQL
-- TypeORM
-- Redis
 - Express
+- Typescript
+- TypeORM
+- PostegreSQL
+- Redis
 - Jest - Unit Testing
 
 
