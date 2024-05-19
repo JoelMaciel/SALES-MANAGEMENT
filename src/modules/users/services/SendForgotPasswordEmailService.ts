@@ -18,7 +18,8 @@ class SendForgotPasswordEmailService {
       throw new AppError("Email not registered in the database.");
     }
 
-    await userTokensRepository.generate(user.id);
+    const token = await userTokensRepository.generate(user.id);
+    console.log(token);
   }
 }
 
